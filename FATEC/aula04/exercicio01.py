@@ -1,0 +1,10 @@
+nasc = int(input('Qual seu ano de nascimento?'))
+idade = int(2024-nasc)
+idadeMes = int(idade*12)
+idadeDias = int(idade*365)
+idadeSem = int(idadeDias/7)
+
+print('Sua idade em anos é:', idade,'anos.')
+print('Sua idade em meses é:', idadeMes,'meses.')
+print('Sua idade em dias é:', idadeDias,'dias.')
+print('Sua idade em semanas é:', idadeSem,'semanas.')
